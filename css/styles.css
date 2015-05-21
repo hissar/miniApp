@@ -61,14 +61,22 @@ a {
 /* MENU */
 
 .menu {
+	
 	width: 900px;
 	list-style-type: none;
 	margin-bottom: 50px;
+	border:1px solid ;
 }
 
 .menu li{
 	float: left;
 	width: 25%;
+	display:inline-block;
+vertical-align:top;
+width:200px;
+border : 1px solid blue;
+height: 40px;
+background-color: green;
 }
 
 .menu li a{

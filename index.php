@@ -24,6 +24,7 @@
 		 <div class="container">
 			<?php include 'menu.php'; ?>
 		 	<hr>
+
 <?php 
 
  for($i=0;$i<10;$i++)
@@ -38,8 +39,6 @@
 		 				<img src="img/coffret.png">
 		 			</div>
 		 		
-		 			
-
 		 			<h3>
 		 				Coffret <br> Des Iles Vanille <br>
 		 				<span>22,00 €</span>
