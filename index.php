@@ -20,10 +20,14 @@
 	</head>
 
 	<body>
+
+		<div class="container">
+			<?php include 'menu.php'; ?>
+		</div>
+
+		<div class="clear"></div>
 		
 		 <div class="container">
-			<?php include 'menu.php'; ?>
-		 	<hr>
 
 <?php 
 
@@ -54,28 +58,9 @@
 		 	}
 		 	
  ?>
-
-		<!--  	<hr>
-		 	
-       <div style="width:500px; height:300px; background-color:white"><img src="img/coffret.png"></div>
-
-
-       		
-		<div style="width:200px; height:100px; background-color:white"><h2>Coffret des Ilees Vanilles</h2>
-
-		<center> <div style="width:200px; height:100px; background-color:white"><H4><a href="https://www.google.fr/">EN savoir plus</a></h4></div></center>
-		<center><h3><a href="https://www.google.fr/">achat express</a></h3></center>
- 
- -->
-
-
 		
 			
 		</div>
-		
-		<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/main.js"></script>
 
 	</body>
 </html>
