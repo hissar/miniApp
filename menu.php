@@ -1,14 +1,14 @@
 <ul class="menu">
 	<li>
-		<a href="">Item 1</a>
+		<a href="">file </a>
 	</li>
 	<li>
-		<a href="">Item 2</a>
+		<a href="">edit </a>
 	</li>
 	<li>
-		<a href="">Item 3</a>
+		<a href="">selection</a>
 	</li>
 	<li>
-		<a href="">Item 4</a>
+		<a href="">find</a>
 	</li>
 </ul>
