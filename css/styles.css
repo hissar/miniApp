@@ -1,9 +1,14 @@
 /* INIT BASE CSS */
 
+
 a {
 	text-decoration: none;
 }
+ul{margin:0;
+	padding:0;
+	list-style: none;
 
+}
 .clear {
 	clear: both;
 }
@@ -11,6 +16,7 @@ a {
 .container {
 	width: 900px;
 	margin: 50px auto;
+	height: 300px
 }
 
 /* BLOCK COFFRET */
@@ -72,18 +78,24 @@ a {
 }
 
 .menu li{
-	float: left;
-	width: 200px;
 	display:inline-block;
+vertical-align:top;
+width: 200px;
+float: left;
 border : 1px solid red;
 height: 40px;
+margin: 0 -5px 0 0 ;
 }
 
 .menu li a{
+display:black;
 color:#ffffff;
-vertical-align:top;
+font-weight: bold;
+width:inherit;
+height:inherit;
 background-color: blue;
 text-align: center;
+line-height: 40px; 
 
 
 
@@ -94,6 +106,8 @@ text-align: center;
 }
 .meni li .list{
 	
+	margin:0;
+	padding:0;
 	
 }
 
