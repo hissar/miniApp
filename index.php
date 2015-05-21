@@ -20,8 +20,10 @@
 	</head>
 
 	<body>
-
+		
 		 <div class="container">
+			<?php include 'menu.php'; ?>
+		 	<hr>
 <?php 
 
  for($i=0;$i<10;$i++)

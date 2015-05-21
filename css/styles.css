@@ -1,3 +1,5 @@
+/* INIT BASE CSS */
+
 a {
 	text-decoration: none;
 }
@@ -8,9 +10,7 @@ a {
 	margin: 50px auto 0;
 }
 
-.h3{
-	color:red;
-}
+/* BLOCK COFFRET */
 
 .block-coffret {
 	height: 400px;
@@ -57,3 +57,21 @@ a {
 	display: inline-block;
 
 }
+
+/* MENU */
+
+.menu {
+	width: 900px;
+	list-style-type: none;
+	margin-bottom: 50px;
+}
+
+.menu li{
+	float: left;
+	width: 25%;
+}
+
+.menu li a{
+}
+
+
