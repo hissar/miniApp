@@ -77,7 +77,7 @@ ul{margin:0;
 	border:1px solid ;
 }
 
-.menu li{
+.menu > li{
 	display:inline-block;
 vertical-align:top;
 width: 200px;
@@ -87,7 +87,7 @@ height: 40px;
 margin: 0 -5px 0 0 ;
 }
 
-.menu li a{
+.menu > li a{
 display:black;
 color:#ffffff;
 font-weight: bold;
@@ -95,19 +95,19 @@ width:inherit;
 height:inherit;
 background-color: blue;
 text-align: center;
-line-height: 40px; 
+line-height: 40px;
+ 
 
 
 
 }
-.menu li :hover a {
+.menu  > li :hover > a {
 	background-color: red;
 	color: #ffffff;
 }
-.meni li .list{
+.meni > li > .list{
 	
-	margin:0;
-	padding:0;
+	
 	
 }
 
