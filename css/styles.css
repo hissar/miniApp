@@ -71,10 +71,7 @@ ul{margin:0;
 
 .menu {
 	
-	width: 900px;
-	list-style-type: none;
-	margin-bottom: 50px;
-	border:1px solid ;
+background:blue;
 }
 
 .menu > li{
@@ -85,30 +82,50 @@ float: left;
 border : 1px solid red;
 height: 40px;
 margin: 0 -5px 0 0 ;
+background:blue;
 }
 
-.menu > li a{
-display:black;
-color:#ffffff;
+
+.menu > li > a{
+display:block;
+color:#000;
+text-decoration:none ;
 font-weight: bold;
 width:inherit;
 height:inherit;
-background-color: blue;
+
 text-align: center;
 line-height: 40px;
- 
+
 
 
 
 }
-.menu  > li :hover > a {
-	background-color: red;
+.menu  > li :hover > a 
+{background-color: #161616);
+color:yellow;
+	}
+/* 2*/
+.menu > li > .list{
+background-color: #161616;
+display:none;	
+	
+}
+.menu  > li:hover > .list{
+	display:block;}
+
+
+	width: inherit;
+	height: 40px;
+}
+.meni > li > .list > li > a 
+{
+	display:block;
+	width:inherit;
+	height:40px;
+	
+	line-height: 40px;
+	padding :0 0 0 5px;
 	color: #ffffff;
 }
-.meni > li > .list{
-	
-	
-	
-}
-
 
